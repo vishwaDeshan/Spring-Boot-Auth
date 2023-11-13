@@ -41,6 +41,7 @@ public class UserService {
         adminUser.setUserPassword("Admin@pass");
         Set<Role> adminRoles =new HashSet<>();
         adminRoles.add(adminRole);
+        adminUser.setRole(adminRoles);
         userRepository.save(adminUser);
 
         User user=new User();
@@ -50,6 +51,7 @@ public class UserService {
         user.setUserPassword("Vishwa@pass");
         Set<Role> userRoles =new HashSet<>();
         userRoles.add(userRole);
+        user.setRole(userRoles);
         userRepository.save(user);
     }
 }
