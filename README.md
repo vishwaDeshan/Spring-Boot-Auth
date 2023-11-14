@@ -4,7 +4,7 @@ This project demonstrates a simple Spring Boot application with role-based authe
 
 ## Features
 
-- Role-based authentication with Spring Security.
+- Role-based authentication with Spring Security and JWT.
 - Custom user roles: ADMIN, USER.
 - RESTful API endpoints for user management.
 
